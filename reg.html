@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href='regstyle.css'> 
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <header>
+        <h1>Регистрация</h1>
+        <p>Введите свои данные для регистрации</p>
+      </header>
+      <hr>
+
+      <label for="nm">
+        <b>Имя</b>
+      </label>
+      <input type="text" placeholder="Введите имя" id="nm" required>
+      
+      <label for="snm">
+        <b>Фамилия</b>
+      </label>
+      <input type="text" placeholder="Введите фамилию" id="snm" required>
+
+      <label for="email">
+        <b>Email</b>
+      </label>
+      <input type="text" placeholder="Введите свой email " id="email" required>
+
+      <label for="pswd">
+        <b>Пароль</b>
+      </label>
+      <input type="password" placeholder="Введите пароль" id="pswd" required>
+
+      <label for="rpswd">
+        <b>Введите пароль ещё раз</b>
+      </label>
+      <input type="password" placeholder="Повторите пароль" id="rpswd" required>
+      <hr>
+
+      <button type="submit" class="registerbtn">
+        <b>Регистрация</b>
+      </button>
+    </div>
+    <div class="signin">
+      Уже есть аккаунт? <a href="./index.html">Войти</a>.
+    </div>
+  </div>
+</body>
